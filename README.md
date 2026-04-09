@@ -150,10 +150,5 @@ These files preserve state between runs.
 - Unit tests for pricing, billing, and booking validation
 - Packaging as native executable
 
-## 12. Repository
-
-GitHub repository:
-https://github.com/balloonmann/hotel_management_system
-
 ---
 Prepared for OSDL lab submission to demonstrate practical software design using Java + JavaFX + Maven.
