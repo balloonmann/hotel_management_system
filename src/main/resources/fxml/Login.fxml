@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane styleClass="login-root" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.controllers.LoginController">
+    <VBox alignment="CENTER" spacing="14" styleClass="login-card" maxWidth="360" maxHeight="440">
+        <padding>
+            <Insets bottom="32" left="38" right="38" top="28"/>
+        </padding>
+
+        <Label text="&#x1F3E8;" style="-fx-font-size: 38;"/>
+        <Label text="Hotel Management" styleClass="login-title"/>
+        <Label text="Sign in to your account" styleClass="login-subtitle"/>
+
+        <Separator/>
+
+        <TextField fx:id="usernameField" promptText="Username" prefHeight="36"/>
+        <PasswordField fx:id="passwordField" promptText="Password" prefHeight="36"/>
+
+        <Button fx:id="loginButton" onAction="#handleLogin" text="Sign In"
+                maxWidth="Infinity" prefHeight="40" styleClass="btn-accent"/>
+
+        <Label fx:id="errorLabel" wrapText="true" styleClass="error-label"/>
+    </VBox>
+</StackPane>
