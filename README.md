@@ -1,8 +1,8 @@
 # Hotel Management System (OSDL Project)
 
-A desktop-based Hotel Management System developed for OSDL lab work using Java and JavaFX.
+A desktop-based Hotel Management System using Java and JavaFX.
 
-This project demonstrates how core software engineering ideas from OSDL can be blended into a practical application:
+This project demonstrates how core software engineering ideas can be blended into a practical application:
 - Object-Oriented Design (encapsulation, inheritance, polymorphism)
 - Layered/MVC-style structure (models, controllers, utilities)
 - Persistent state management
